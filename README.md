@@ -7,3 +7,12 @@
 
 ## To create a new app/module 
 `django-admin startapp app-name`
+
+## To create migrations 
+`python manage.py migrate`
+
+## To run migrations 
+`python manage.py makemigrations`
+
+## To show migrations 
+`python manage.py showmigrations`
